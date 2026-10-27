@@ -162,6 +162,14 @@
     </style>
 </head>
 <body>
+    <section style="padding:20px 32px;background:#eaf4ff;border-bottom:3px solid #0056b3;">
+        <h1 style="text-align:left;margin:0 0 12px;">Hello from Automated CI/CD Pipeline!</h1>
+        <p><strong>Version:</strong> 2.0 - Automated Deployment</p>
+        <p><strong>Deployed via:</strong> GitHub Actions + AWS SSM</p>
+        <p><strong>Build Date (UTC):</strong> {{ build_date }}</p>
+        <p><strong>Build Run:</strong> {{ build_run_id }} | <strong>Revision:</strong> {{ build_revision }}</p>
+        <p><strong>Assignment:</strong> Automated EC2 Deployment</p>
+    </section>
     <div class="container">
         <h1>Python Network Audio Player</h1>
 
